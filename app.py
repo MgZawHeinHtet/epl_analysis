@@ -10,6 +10,8 @@ st.title("🏆 PL Unified Predictor & Analysis")
 # ဒေတာ Load လုပ်ခြင်း
 df = load_and_prepare_data()
 
+# testing for nice 
+
 if df.empty:
     st.error("❌ ဒေတာဖတ်လို့မရပါ။ 'data/' folder ထဲက ဖိုင်တွေကို စစ်ဆေးပေးပါ။")
 else:
